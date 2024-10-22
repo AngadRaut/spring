@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean class="org.constructor_ref.Certificate" name="cert">
+        <constructor-arg name="Structural Engineering"/>
+        <constructor-arg name="6"/>
+    </bean>
+
+    <bean class="org.constructor_ref.Person" name="person1">
+        <constructor-arg name="101"/>
+        <constructor-arg name="Nana Patekar"/>
+        <constructor-arg ref="cert"/>
+        <constructor-arg name="childrens">
+            <list>
+                <value>Jyoti</value>
+                <value>Nagaraj</value>
+                <value>Maroti</value>
+                <value>Sangita</value>
+                <value>Bharati</value>
+            </list>
+        </constructor-arg>
+    </bean>
+
+</beans>

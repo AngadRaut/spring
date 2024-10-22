@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean class="org.collections.Emp" name="emp1">
+        <property name="name" value="Radhe"/>
+        <property name="address">
+            <list>
+                <value>Benguluru</value>
+                <value>Gao</value>
+                <value>Maharashtra</value>
+                <value>Rajastan</value>
+                <value>Kolkata</value>
+            </list>
+        </property>
+        <property name="phones">
+            <set>
+                <value>7218997215</value>
+                <value>7218497215</value>
+                <value>7213397215</value>
+                <value>7218997215</value>
+            </set>
+        </property>
+        <property name="courses">
+            <map>
+                <entry key="Web Development" value="6-month"/>
+                <entry key="Testing" value="6-month"/>
+                <entry key="App Development" value="6-month"/>
+                <entry key="Front End Development" value="6-month"/>
+            </map>
+        </property>
+    </bean>
+</beans>
