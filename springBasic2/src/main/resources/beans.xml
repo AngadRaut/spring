@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!-- beans.xml -->
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean class="org.example.Car" id="car1">
+        <property name="car_id">
+            <value>1001</value>
+        </property>
+        <property name="car_name">
+            <value>Toyota RAV4</value>
+        </property>
+        <property name="engine_type">
+            <value>Diesel engine</value>
+        </property>
+        <property name="model">
+            <value>Hybrid Woodland Edition</value>
+        </property>
+        <property name="car_price">
+            <value>10000000.00</value>
+        </property>
+    </bean>
+
+    <bean class="org.example.Car" name="car2">
+        <property name="car_id" >
+            <value>1002</value>
+        </property>
+        <property name="car_name">
+            <value>Tesla</value>
+        </property>
+        <property name="engine_type">
+            <value>Petrol</value>
+        </property>
+        <property name="model">
+            <value>Model-3</value>
+        </property>
+        <property name="car_price">
+            <value>15000000.00</value>
+        </property>
+    </bean>
+
+
+
+</beans>

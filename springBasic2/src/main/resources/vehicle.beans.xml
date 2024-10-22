@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean class="org.engine.Vehicles" name="brand1">
+        <property name="brand_name" >
+            <value>Tesla</value>
+        </property>
+        <property name="vehicle_types" >
+            <set>
+                <value>Car</value>
+                <value>Truck</value>
+                <value>Loading Vehicles</value>
+                <value>Bikes</value>
+            </set>
+        </property>
+        <property name="engine_type_capacity">
+            <map>
+                <entry key="Diesel engine" value="2276cc"/>
+                <entry key="Flat engine" value="390 cubic inches"/>
+                <entry key="Rotary engine" value="89cc"/>
+                <entry key="Straight-five engine" value="123cc"/>
+                <entry key="Internal petrol combustion engine (ESS)" value="456cc"/>
+            </map>
+        </property>
+    </bean>
+
+</beans>
