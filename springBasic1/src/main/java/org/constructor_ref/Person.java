@@ -20,11 +20,6 @@ public class Person {
 
     @Override
     public String toString() {
-        return "Person{" +
-                "certificate=" + certificate +
-                ", childrens=" + childrens +
-                ", name='" + name + '\'' +
-                ", id=" + id +
-                '}'+"\n";
+        return "Person{" +" Name : "+name+",Id:"+id+",childrens:"+childrens+" "+certificate+"}";
     }
 }

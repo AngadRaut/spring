@@ -6,14 +6,13 @@
         http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
     <bean class="org.constructor_ref.Certificate" name="cert">
-        <constructor-arg name="Structural Engineering"/>
-        <constructor-arg name="6"/>
+        <constructor-arg name="course"    value="Structural Engineering"/>
+        <constructor-arg  name="duration"  value="6"/>
     </bean>
 
     <bean class="org.constructor_ref.Person" name="person1">
-        <constructor-arg name="101"/>
-        <constructor-arg name="Nana Patekar"/>
-        <constructor-arg ref="cert"/>
+        <constructor-arg name="id" value="101"/>
+        <constructor-arg name="name" value="Nana Patekar"/>
         <constructor-arg name="childrens">
             <list>
                 <value>Jyoti</value>
@@ -23,6 +22,11 @@
                 <value>Bharati</value>
             </list>
         </constructor-arg>
+        <constructor-arg name="certificate" ref="cert"/>
+    </bean>
+    <bean class="org.constructor_ref.Ambiguity" name="amb1">
+        <constructor-arg name="a" value="12" />
+        <constructor-arg name="b" value="10" />
     </bean>
 
 </beans>

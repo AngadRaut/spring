@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:util="http://www.springframework.org/schema/util"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/context
+       http://www.springframework.org/schema/context/spring-context.xsd
+       http://www.springframework.org/schema/util
+       http://www.springframework.org/schema/tuil/spring-util.xsd">
+
+
+    <!--standalone collections-->
+    <util:map map-class="java.util.HashMap" id="fee">
+        <entry key="Data Analysis" value="60000"/>
+        <entry key="Full Stack Developer" value="55555"/>
+        <entry key="Back-End Developer" value="34000"/>
+        <entry key="Front End developer" value="90000"/>
+    </util:map>
+    <util:set set-class="java.util.HashSet" id="friend">
+        <value>Nana</value>
+        <value>Mohan</value>
+        <value>Manoj</value>
+    </util:set>
+
+    <bean class="org.standalone_collections.Student" id="student1">
+        <property name="name" value="Anuja"/>
+        <property name="friends" ref="friend"/>
+        <property name="feeStructure" value="fee"/>
+    </bean>
+
+
+</beans>

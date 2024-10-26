@@ -8,5 +8,6 @@ public class Demo {
         ApplicationContext context = new ClassPathXmlApplicationContext("collection.config.xml");
         Emp e1 = (Emp)context.getBean("emp1");
         System.out.println(e1);
+        System.out.println(e1.getPhones().getClass().getName());
     }
 }

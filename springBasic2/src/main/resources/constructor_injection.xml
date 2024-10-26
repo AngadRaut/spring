@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+      <bean class="org.constructor_ref_injection.Xyz" name="first">
+          <constructor-arg name="address" value="Wassa"/>
+          <constructor-arg name="pinCode" value="431509"/>
+      </bean>
+    <bean class="org.constructor_ref_injection.Abc" name="fir">
+        <constructor-arg name="name" value="Nana"/>
+        <constructor-arg name="sirName" value="Patekar"/>
+        <constructor-arg name="xyz" ref="first"/>
+    </bean>
+
+    <bean class="org.constructor_ref_injection.Ambiguity" name="ex1">
+        <constructor-arg name="a" value="100"/>
+        <constructor-arg name="b" value="200"/>
+    </bean>
+
+</beans>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean class="org.autowiring.Address" name="address">
+        <property name="street" value="Jalima Nagar"/>
+        <property name="city" value="Hydrabad"/>
+        <property name="pinCode" value="875640"/>
+    </bean>
+
+    <bean class="org.autowiring.Address" name="address1">
+        <property name="street" value="Jam Nagar"/>
+        <property name="city" value="Pune"/>
+        <property name="pinCode" value="431509"/>
+    </bean>
+
+
+    <bean class="org.autowiring.Employee" name="emp1" autowire="byName">
+    </bean>
+
+
+</beans>
