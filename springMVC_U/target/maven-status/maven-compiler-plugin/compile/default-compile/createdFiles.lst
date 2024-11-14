@@ -1,0 +1,5 @@
+com\springmvc\controller\ContactController.class
+com\springmvc\controller\HomeController.class
+com\springmvc\dao\UserDao.class
+com\springmvc\service\UserService.class
+com\springmvc\entity\User.class

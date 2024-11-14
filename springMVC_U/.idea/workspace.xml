@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3ca44b39-6d5b-4cd1-9f82-89e10b7c7a47" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springORM/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springORM/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springORM/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springORM/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springORM/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springORM/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springORM/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springORM/src/main/java/org/example/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springORM/src/test/java/org/example/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvcSearch/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvcSearch/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvcSearch/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvcSearch/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvcSearch/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvcSearch/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvcSearch/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvcSearch/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvcSearch/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springBasic1/src/main/java/org/stereotype_annotations/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springBasic1/src/main/java/org/stereotype_annotations/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springBasic1/src/main/resources/stereotype.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springBasic1/src/main/resources/stereotype.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springJdbc/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springJdbc/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springJdbc/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springJdbc/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springJdbc/src/main/java/org/example/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springJdbc/src/main/java/org/example/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springJdbcPractice1/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springJdbcPractice1/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springJdbcPractice1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springJdbcPractice1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springJdbcPractice1/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springJdbcPractice1/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springJdbcPractice1/src/main/java/org/example/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springJdbcPractice1/src/main/java/org/example/App.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="spring-beans.schema" />
+        <option value="Jsp File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2okTCHEtDAmZOPBOGDEAsukWWRG" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/myProjects/spring/springORM&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.javacompiler&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;ede4cd7cca22f9d234d8d09c0bd0b510&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\myProjects\spring\springMVC_U\src\main\webapp\WEB-INF\views" />
+      <recent name="D:\myProjects\spring\springMVC_U\src\main\webapp\WEB-INF" />
+      <recent name="D:\myProjects\spring\springMVC_U\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean\" />
+      <command value="mvn clean" />
+      <command value="mvn install" />
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Unnamed" type="com.poratu.idea.plugins.tomcat" nameIsGenerated="true">
+      <predefined_log_file enabled="true" id="Tomcat Localhost Log" />
+      <predefined_log_file enabled="true" id="Tomcat Access Log" />
+      <predefined_log_file id="Tomcat Catalina Log" />
+      <predefined_log_file id="Tomcat Manager Log" />
+      <predefined_log_file id="Tomcat Host Manager Log" />
+      <option name="catalinaBase" value="C:\Users\Angad\.SmartTomcat\springMVC_U\springMVC_U" />
+      <option name="contextPath" value="/springMVC_U" />
+      <option name="docBase" value="$PROJECT_DIR$/src/main/webapp" />
+      <option name="envOptions">
+        <map />
+      </option>
+      <option name="extraClassPath" value="" />
+      <option name="port" value="8088" />
+      <option name="tomcatInfo">
+        <TomcatInfo>
+          <option name="name" value="Apache Tomcat/9.0.97" />
+          <option name="path" value="$PROJECT_DIR$/../../../Softwares/java/apache-tomcat-9.0.97-windows-x64/apache-tomcat-9.0.97" />
+          <option name="version" value="9.0.97.0" />
+        </TomcatInfo>
+      </option>
+      <option name="vmOptions" value="" />
+      <module name="springMVC_U" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3ca44b39-6d5b-4cd1-9f82-89e10b7c7a47" name="Changes" comment="" />
+      <created>1731412447473</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1731412447473</updated>
+      <workItem from="1731412448799" duration="5678000" />
+      <workItem from="1731468597933" duration="2383000" />
+      <workItem from="1731472736604" duration="24535000" />
+      <workItem from="1731553506745" duration="11677000" />
+      <workItem from="1731566209213" duration="5000" />
+      <workItem from="1731566307077" duration="748000" />
+      <workItem from="1731567076616" duration="8502000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
