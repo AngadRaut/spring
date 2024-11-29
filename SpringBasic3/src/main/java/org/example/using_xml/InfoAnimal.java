@@ -7,6 +7,7 @@ public class InfoAnimal {
     public static void main(String[] args) {
         ApplicationContext context = new ClassPathXmlApplicationContext("config.xml");
         Animal animal1 = (Animal) context.getBean("animal1");
+        System.out.println();
         System.out.println(animal1);
 
         Animal animal2 = (Animal) context.getBean("animal2");
