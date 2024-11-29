@@ -1,4 +1,4 @@
-package org.example;
+package org.example.using_xml;
 
 public class Species {
     private String species;
